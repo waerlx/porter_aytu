@@ -1,0 +1,171 @@
+@media screen and (max-width: 1300px) {
+	.container{
+		max-width: 960px;
+	}
+	.main_tit{
+		align-items: center;
+	}
+	body{
+		font-size: 16px;
+	}
+	.head_logo img{
+		max-width: 60px;
+		max-height: 60px;
+	}
+	.menu li a{
+		font-size: 14px;
+	}
+	.main_btn{
+		font-size: 10px;
+		max-height: 45px;
+		max-width: 130px;
+	}
+	.costumer_name{
+		font-size: 20px;
+
+	}
+	.costumer_card{
+		max-width: 300px;
+	}
+	.costumer_review{
+		font-size: 14px;
+	}
+	.costumer_status{
+		font-size: 12px;
+	}
+	.plus_left img{
+		width: 430px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.plus_right{
+		max-width: 400px;
+		justify-content: center;
+	}
+	.plus_tit{
+		margin-bottom: 20px;
+	}
+	.advan_card{
+		padding: 2px;
+	}
+	.services_cards{
+		justify-content: center;
+		gap: 25px;
+	}
+	.wrap{
+		justify-content: center;
+	}
+	.header_btn{
+		display: none;
+	}
+
+}
+@media screen and (max-width: 990px) {
+	.container{
+		max-width: 750px;
+	}
+	.costumer_card{
+		max-width: 230px;
+	}
+
+}
+@media screen and (max-width: 780px) {
+	.container{
+		max-width: 510px;
+	}
+	body{
+		font-size: 18px;
+	}
+	.main_tit{
+		font-size: 35px;
+	}
+	.plus_tit{
+		font-size: 25px;
+	}
+	.sec_tit{
+		font-size: 30px;
+	}
+	.costumer_cards{
+		justify-content: center;
+	}
+	.costumer_card{
+		max-width: 350px;
+		margin-bottom: 30px;
+	}
+	.services_cards{
+		justify-content: center;
+	}
+	.plus_card_port{
+		padding: 20px ;
+	}
+}
+@media screen and (max-width: 540px) {
+	.container{
+		max-width: 420px;
+	}
+
+	.advan_cards {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.advan_card {
+		margin-bottom: 30px;
+	}
+
+	.advan_ic {
+		max-width: 160px;
+		height: 160px;
+	}
+
+	.advan_text {
+		font-size: 14px;
+	}
+	.plus_left img {
+		width: 350px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.plus_left {
+		flex: 0; 
+		padding: 0;
+	}
+	/* .plus_card_txt{
+
+	} */
+	.plus_card_port{
+		max-width: 230px;
+		font-size: 12px;
+	}
+	.advan_ic {
+		max-width: 100px;
+		height: 100px;
+	}
+	.slick-prev:before, .slick-next:before {
+		font-family: 'slick';
+		font-size: 20px;
+		line-height: 1;
+		opacity: .75;
+		color: rgb(0, 0, 0);
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}
+@media screen and (max-width: 450px) {
+	.container{
+		max-width: 100%;
+	}
+	.plus_left {
+		flex: 0; 
+		padding: 0;
+	}
+
+.slick-prev:before{
+	display: none;
+}
+.slick-next:before{
+	display: none;
+}
+}
